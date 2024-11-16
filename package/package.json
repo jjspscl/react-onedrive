@@ -1,0 +1,37 @@
+{
+  "name": "react-onedrive",
+  "version": "0.0.1-alpha.0",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "bun build.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@azure/msal-browser": "3.27.0",
+    "@pnp/core": "4.6.0",
+    "hyperid": "3.3.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "@types/react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/bun": "^1.1.13",
+    "@types/node": "^22.9.0",
+    "bun-plugin-dts": "^0.3.0",
+    "bun-plugin-dts-auto": "^0.20.6",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.11.0",
+    "react": "^18.3.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}
